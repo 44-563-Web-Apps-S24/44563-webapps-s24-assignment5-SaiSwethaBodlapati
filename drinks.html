@@ -51,6 +51,24 @@
     </style>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">A Few Drinks</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="basic.html">Basic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="advanced.html">Advanced</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <h1>Have a cup with Swetha</h1>
     <div class="container">
       <div class="row">
@@ -157,9 +175,11 @@
       </tbody>
     </table>
   </div>
+  
   <nav class="navbar">
     <span class="navbar-text">Buttons and Button Groups</span>
-  </nav>
+    </nav>
+  
   <div class="container">
     <div class="btn-toolbar">
       <div class="btn-group" role="group" aria-label="Images Buttons">
@@ -178,8 +198,17 @@
     </div>
     
   </div>
-
-  
-
+  <div class="container">
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Select Drinks Page
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="basic.html">Basic Drinks Page</a>
+        <a class="dropdown-item" href="advanced.html">Advanced Drinks Page</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
+  
